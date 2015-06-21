@@ -1,0 +1,16 @@
+
+PHPを利用したFacebookのOAuth認証サンプル
+
+.インストール講座
+http://dotinstall.com/lessons/fb_connect_php_v2
+
+FacebookのRestfulAPIドキュメント
+https://developers.facebook.com/docs/facebook-login/manually-build-a-login-flow/v2.3
+
+【重要】Graph API バージョン2.0 での仕様変更について
+Facebook の仕様変更により /me/friends で取得できる友達リストには
+同じ App (アプリ) を利用中の友達しか含まれなくなりました。
+そのため自分だけしか利用していない、
+練習用に作成した今回のようなアプリでは、友達リストは空で返ってくることになります。
+https://developers.facebook.com/docs/apps/upgrading?locale=ja_JP#upgrading_v2_0_login
+
